@@ -31,8 +31,8 @@ clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "  Welcome To NIXX SYANK ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}Agung vpn® ${NC}${YELLOW}(${NC} ${green} Agung Tunneling ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self NIXX STORE${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}NIXY PROJECT ${NC}${YELLOW}(${NC} ${green} NIXY TUNNELING ${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self NIXY STORE${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -311,7 +311,7 @@ TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipv4.icanhazip.com)
 TIMES="10"
 CHATID="5289385265"
-KEY="6845879443:AAF5IkSPtbY6E9FIsRtPyxNpBpAAQz06K90"
+KEY="6555629687:AAH25KH2nCBzANiwx7lHURRZRT_f-AdxI1U"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 restart_system() {
     USRSC=$(wget -qO- https://raw.githubusercontent.com/nixyproject-cfd/vip/main/izin | grep $ipsaya | awk '{print $2}')
@@ -319,7 +319,7 @@ restart_system() {
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
-<b>✨AUTOSCRIPT PREMIUM✨</b>
+<b>SUKSES INSTALL</b>
 <code>────────────────────</code>
 <code>ID     : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -329,7 +329,7 @@ restart_system() {
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/AGUNGVPNSTORE"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/channel_agungstore/25"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/nixy_store"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/nixy_store_id"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear

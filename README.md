@@ -6,3 +6,25 @@
  ```html
  wget https://raw.githubusercontent.com/nixyproject-cfd/vip/main/nixy.sh && chmod +x nixy.sh && ./nixy.sh
  ```
+##
+<p align="center">
+  <img width="1055" height="auto" src="https://raw.githubusercontent.com/nixyproject-cfd/nixy/main/AUTOSCRIPT/IMG_20231230_075756.jpg">
+</p>
+
+<img width="auto" height="auto" src="https://raw.githubusercontent.com/nixyproject-cfd/nixy/main/AUTOSCRIPT/IMG_20231230_080104.jpg">
+</p>
+
+<img width="auto" height="auto" src="https://raw.githubusercontent.com/nixyproject-cfd/nixy/main/AUTOSCRIPT/IMG_20231230_080125.jpg">
+</p>
+
+<img width="1055" height="auto" src="https://raw.githubusercontent.com/nixyproject-cfd/nixy/main/AUTOSCRIPT/IMG_20231230_080145.jpg">
+</p>
+
+<img width="1055" height="auto" src="https://raw.githubusercontent.com/nixyproject-cfd/nixy/main/AUTOSCRIPT/IMG_20231230_080205.jpg">
+</p>
+
+<img width="1055" height="auto" src="https://raw.githubusercontent.com/nixyproject-cfd/nixy/main/AUTOSCRIPT/IMG_20231230_080229.jpg">
+</p>
+
+<img width="1055" height="auto" src="https://raw.githubusercontent.com/nixyproject-cfd/nixy/main/AUTOSCRIPT/IMG_20231230_080244.jpg">
+</p>

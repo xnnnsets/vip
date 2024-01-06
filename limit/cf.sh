@@ -1,10 +1,10 @@
 #!/bin/bash
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
-DOMAIN=agungvpnstore.my.id
+DOMAIN=badul.com
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-SUB_DOMAIN=${sub}.agungvpnstore.my.id
-CF_ID=mohagungsetiawan3@gmail.com
+SUB_DOMAIN=${sub}.badut.com
+CF_ID=support@badut.com
 CF_KEY=32c034925166ecc42c3fcb572e14cf3325bc9
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);

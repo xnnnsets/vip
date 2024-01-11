@@ -18,7 +18,7 @@ clear
 #	 menu
 #else
 
-echo -e "Installing TCP BBR Mod By Kyt & Ridwan"
+echo -e "Installing TCP BBR RECODE BY DIZZY FT NIXY"
 echo -e "Please Wait BBR Installation Will Starting . . ."
 sleep 5
 clear

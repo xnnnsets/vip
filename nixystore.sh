@@ -29,10 +29,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To NIXX SYANK ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
-echo -e " This Will Quick Setup VPN Server On Your Server"
+echo -e "  WELCOME TO SCRIPT VIP${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e " This Will Quick Setup VP N Server On Your Server"
 echo -e "  Auther : ${green}NIXY PROJECT ${NC}${YELLOW}(${NC} ${green} NIXY TUNNELING ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self NIXY STORE${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e " © RECODE BY MY SELF NIXY STORE${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -321,12 +321,12 @@ restart_system() {
 <code>────────────────────</code>
 <b>AUTOSCRIPT NOTIFICATION</b>
 <code>────────────────────</code>
-<code>Status SC : </code><code>$EXPSC</code>
-<code>Tanggal : </code><code>$TIMEZONE</code>
-<code>Domain : </code><code>$domain</code>
-<code>User ID : </code><code>$USRSC</code>
-<code>IP Vps : </code><code>$ipsaya</code>
-<code>Waktu : </code><code>$TIME</code>
+<code>USER ID	: </code><code>$USRSC</code>
+<code>DOMAIN 	: </code><code>$domain</code>
+<code>EXP SC 	: </code><code>$EXPSC</code>
+<code>IP VPS 	: </code><code>$ipsaya</code>
+<code>DATE   	: </code><code>$TIME</code>
+<code>TIME   	: </code><code>$TIMEZONE</code>
 <code>────────────────────</code>
 <i>SUCCESSFUL INSTALLATION</i>
 <code>────────────────────</code>

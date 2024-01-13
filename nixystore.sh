@@ -29,10 +29,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  WELCOME TO SCRIPT VIP${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  WELCOME TO SCRIPT VIP ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VP N Server On Your Server"
-echo -e "  Auther : ${green}NIXY PROJECT ${NC}${YELLOW}(${NC} ${green} NIXY TUNNELING ${NC}${YELLOW})${NC}"
-echo -e " © RECODE BY MY SELF NIXY STORE${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
+echo -e "  Author : ${green}NIXY PROJECT ${NC}${YELLOW}(${NC} ${green} NIXY TUNNELING ${NC}${YELLOW})${NC}"
+echo -e " COPYRIGHT BY DIZZY ${YELLOW}(${NC} 2020 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -332,7 +332,7 @@ restart_system() {
 <code>────────────────────</code>
 <i>SUCCESSFUL INSTALLATION</i>
 <code>────────────────────</code>
-"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/nixy_store"},{"text":"INSTALL","url":"https://t.me/ch_nixystore"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/nixy_store"},{"text":"INSTALL","url":"https://t.me/nixy_store"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear

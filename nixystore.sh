@@ -280,27 +280,29 @@ clear
     echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
 echo -e "   '----------------------------------'"
-echo -e "     \e[1;32m1)\e[0m Domain Sendiri"
-#echo -e "     \e[1;32m2)\e[0m Gunakan Domain Random Khusus Digital ocean ISP LAIN ✖️ "
+echo -e "     \e[1;32m1)\e[0m Menggunakan Domain Sendiri ( Recommended )"
+echo -e "     \e[1;32m2)\e[0m Menggunakan Domain Random"
 echo -e "   ------------------------------------"
-read -p "   Please select numbers 1 or Any Button(Random) : " host
+read -p "   Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
 if [[ $host == "1" ]]; then
 echo -e "   \e[1;32mPlease Enter Your Subdomain $NC"
-read -p "   Subdomain: " host1
+echo -e "\033[1;96m___________________________________________\033[0m"
+echo -e ""
+read -p "   Masukan Domain: " host1
+echo -e ""
+echo -e "\033[1;96m___________________________________________\033[0m"
 echo "IP=" >> /var/lib/kyt/ipvps.conf
 echo $host1 > /etc/xray/domain
 echo $host1 > /root/domain
 echo ""
 elif [[ $host == "2" ]]; then
 #install cf
-wget ${REPO}limit/cf.sh && chmod +x cf.sh && ./cf.sh
+wget ${REPO}files/cf.sh && chmod +x cf.sh && ./cf.sh
 rm -f /root/cf.sh
 clear
 else
 print_install "Random Subdomain/Domain is Used"
-wget ${REPO}ssh/cf.sh && chmod +x cf.sh && ./cf.sh
-rm -f /root/cf.sh
 clear
     fi
 }
@@ -321,12 +323,12 @@ restart_system() {
 <code>────────────────────</code>
 <b>AUTOSCRIPT NOTIFICATION</b>
 <code>────────────────────</code>
-<b>USER ID	: </b><code>$USRSC</code>
+<b>USER ID	  : </b><code>$USRSC</code>
 <b>DOMAIN 	: </b><code>$domain</code>
-<b>EXP SC 	: </b><code>$EXPSC</code>
+<b>EXP SC 	   : </b><code>$EXPSC</code>
 <b>IP VPS 	: </b><code>$ipsaya</code>
-<b>DATE   	: </b><code>$TIME</code>
-<b>TIME   	: </b><code>$TIMEZONE</code>
+<b>DATE   	    : </b><code>$TIME</code>
+<b>TIME   	     : </b><code>$TIMEZONE</code>
 <code>────────────────────</code>
 <i>SUCCESSFUL INSTALLATION</i>
 <code>────────────────────</code>

@@ -30,8 +30,8 @@ clear;clear;clear
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "  WELCOME TO SCRIPT VIP ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
-echo -e " This Will Quick Setup VP N Server On Your Server"
-echo -e "  Author : ${green}NIXY PROJECT ${NC}${YELLOW}(${NC} ${green} NIXY TUNNELING ${NC}${YELLOW})${NC}"
+echo -e " This Will Quick Setup VPN Server On Your Server"
+echo -e "  Author : ${green}PROJECT ${NC}${YELLOW}(${NC} ${green} DIZZY FT NIXY ${NC}${YELLOW})${NC}"
 echo -e " COPYRIGHT BY DIZZY ${YELLOW}(${NC} 2020 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""

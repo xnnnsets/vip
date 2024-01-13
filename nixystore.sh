@@ -321,16 +321,13 @@ restart_system() {
 <code>────────────────────</code>
 <b>AUTOSCRIPT NOTIFICATION</b>
 <code>────────────────────</code>
-<b>USER ID	: </b><code>$USRSC</code>
-<b>DOMAIN 	: </b><code>$domain</code>
-<b>EXP SC 	: </b><code>$EXPSC</code>
-<b>IP VPS 	: </b><code>$ipsaya</code>
-<b>DATE   	: </b><code>$TIME</code>
-<b>TIME   	: </b><code>$TIMEZONE</code>
+<b>» USER ID	: </b><code>$USRSC</code>
+<b>» EXP SC 	: </b><code>$EXPSC</code>
+<b>» IP VPS 	: </b><code>$ipsaya</code>
 <code>────────────────────</code>
-<i>SUCCESSFUL INSTALLATION</i>
+<i>» SUCCESSFUL INSTALLATION</i>
 <code>────────────────────</code>
-"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/nixy_store"},{"text":"INSTALL","url":"https://t.me/ch_nixystore"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/nixy_store"},{"text":"INSTALL","url":"https://t.me/nixy_store"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear

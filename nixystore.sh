@@ -323,7 +323,7 @@ restart_system() {
 <code>────────────────────</code>
 <b>» USER ID	: </b><code>$USRSC</code>
 <b>» EXP SC 	: </b><code>$EXPSC</code>
-<b>» IP VPS 	: </b><code>$ipsaya</code>
+<b>» IP VPS 	 : </b><code>$ipsaya</code>
 <code>────────────────────</code>
 <i>» SUCCESSFUL INSTALLATION</i>
 <code>────────────────────</code>
